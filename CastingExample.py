@@ -1,3 +1,7 @@
+
+
+
+
 x = input("Give me a number: ")
 x = int(x)
 
