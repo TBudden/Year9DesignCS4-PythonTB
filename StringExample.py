@@ -15,8 +15,8 @@
 # Paul length = 4
 name = "Taylor"
 
-Print(name)
+print(name)
 
-Sentence = name + " is cool!" #concalination = adding strings
-Print(Sentence)
-Print(Sentence + "!")
+sentence = name + " is cool!" #concalination = adding strings
+print(sentence)
+print(sentence + "!")
