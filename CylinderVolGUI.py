@@ -2,9 +2,6 @@ import tkinter as tk
 import math
 
 
-Print "Hello! What equation do you want to calculate?"
-
-
 root = tk.Tk()
 root.title("Volume of a Cylinder")
 def submit():
