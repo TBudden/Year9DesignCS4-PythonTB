@@ -27,7 +27,7 @@ var.trace("w",change)
 dropDownMenuLabel = tk.Label(root, text = "Equations:")
 dropDownMenuLabel.pack()
 
-dropDownMenu = tk.OptionMenu(root,var, Equations[0],Equations[1],Equations[2],Equations[3], width=20, height=10, borderwidth=3)
+dropDownMenu = tk.OptionMenu(root,var, Equations[0],Equations[1],Equations[2],Equations[3],)
 dropDownMenu.pack()
 
 btn = tk.Button(root, text="submit", command=submit)
