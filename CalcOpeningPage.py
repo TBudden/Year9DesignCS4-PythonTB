@@ -16,9 +16,7 @@ def No():
 
 	NoText = tk.Label(root, text = "Okay, goodbye!")
 	NoText.pack()
-
-	time.sleep(2)
-	sys.exit(0)
+	sys.exit()
 
 btnYes = tk.Button(root, text="Yes", command=Yes)
 btnYes.pack()
